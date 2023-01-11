@@ -1,52 +1,42 @@
+div.header{color:white;line-height:0.9;letter-spacing:20px;position:absolute; bottom:30px; right:50px;font-family: 'Stick No Bills', sans-serif; font-weight:500;font-size:48px;}
+*{box-sizing:border-box;}
+
+
+
+div.col-1 {width: 8.33%;}
+div.col-2 {width: 16.66%;background-color:#fafad2;}
+div.col-3 {width: 25%;}
+div.col-4 {width: 33.33%; background-color:lightyellow;}
+div.col-5 {width: 41.66%;margin-top:50px; background-color:#99cc66;}
+div.col-6 {width: 50%; }
+div.col-7 {width: 58.33%;background-color:#cccc99;}
+div.col-8 {width: 66.66%;}
+div.col-9 {width: 75%;}
+div.col-10 {width: 83.33%;}
+div.col-11 {width: 91.66%; margin-top:50px; background-color:#99cc66;}
+div.col-12 {width: 100%; background-color:lightblue;}
+[class*="col-"] {float:left; padding:15px;}
+
+div.row::after {content:""; clear:both; display:table;}
+
+
+@media only screen and (max-width: 767.98px) {
+	body {background-color: silver;font-size:3vw;font-family:couriernew; color:#ff6347; }
+	}
+
+@media only screen and (min-width: 767.98px) {
+	body {background-color: wheat;font-size:3vw;font-family:couriernew;}
+	}
+	
+@media only screen and (min-width: 992px) {
+	body {background-color: thistle ;font-size:2.5em;font-family:courier; color:#4c939e; }
+	}
+
+img {max-width: 100%; height:auto;}
+
 h1 {color: purple;font-family: verdana;font-size: 60px;}
 h2{color: pink; font-family: courier; font-size:20px;}
 
 p {color: black;font-family: courier;font-size: 30px;background-color:lightcoral;}
 p1 {color: black;font-family: courier;font-size: 15px;background-color:blanchedalmond	;}
 p2{color: black;font-family: courier;font-size: 15px; background-color:sandybrown;}
-
-img {max-width: 100%; height:auto;}
-.full-width-img {
-width: 100%;
-}
-@media only screen and (min-width: 780px) {
-.full-width-img {
-margin: auto;
-width: 90%;
-
-}
-}
-@media only screen and (max-width: 800px) {
-	p {color:red;}
-	}
-
-@media only screen and (min-width: 700px) {
-	body {color:#cc0000;font-size:2.5vw;font-family:'Stick No Bills'; background-color:silver;}
-	}
-
-
-
-@media screen and (max-width:600px) {
-	body {color:#cc0000;font-size:2.5vw;font-family:'Rockwell'; background-color:plum;}
-	}
-	
-@media screen and (min-width:601px) and (max-width:650px){
- body {background-color:white;}
-}
-
-div.video{margin-top:30px;}
-
- /*  iframe{width:900px; height:600px; height:auto;}*/
- .video-container {
-margin-top:10px;
-  position: relative;
-  padding-bottom: 56.25%;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
